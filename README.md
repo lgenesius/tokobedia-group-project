@@ -1,4 +1,4 @@
-# TokoBedia Website(2)
+# TokoBedia Website (2)
 This is my school project in Pattern Software Design(or Domain Driven Design) Laboratory Subjects. This is a group project that consists of 3 people.<br><br>
 This is a follow-up project from the individual project and now done in groups.<br><br>
 This website is about E-Commerce Website.
