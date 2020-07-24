@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1d4cb1ca3a054ac4a79861ce0347264a" Name="Diagram1" ZoomLevel="82" >
+        <EntityTypeShape EntityType="tokobediaModel.Cart" Width="1.5" PointX="5.25" PointY="4" />
+        <EntityTypeShape EntityType="tokobediaModel.DetailTransaction" Width="1.5" PointX="7.5" PointY="1" />
+        <EntityTypeShape EntityType="tokobediaModel.HeaderTransaction" Width="1.5" PointX="5.25" PointY="0.75" />
+        <EntityTypeShape EntityType="tokobediaModel.PaymentType" Width="1.5" PointX="3" PointY="7.25" />
+        <EntityTypeShape EntityType="tokobediaModel.Product" Width="1.5" PointX="5.25" PointY="10.25" />
+        <EntityTypeShape EntityType="tokobediaModel.ProductType" Width="1.5" PointX="3" PointY="10.625" />
+        <EntityTypeShape EntityType="tokobediaModel.Role" Width="1.5" PointX="0.75" PointY="4.125" />
+        <EntityTypeShape EntityType="tokobediaModel.Table" Width="1.5" PointX="5.75" PointY="7" />
+        <EntityTypeShape EntityType="tokobediaModel.User" Width="1.5" PointX="3" PointY="3.5" />
+        <AssociationConnector Association="tokobediaModel.FK__Carts__ProductID__5DCAEF64" />
+        <AssociationConnector Association="tokobediaModel.FK__Carts__UserID__5CD6CB2B" />
+        <AssociationConnector Association="tokobediaModel.FK__DetailTra__Produ__34C8D9D1" />
+        <AssociationConnector Association="tokobediaModel.FK__DetailTra__Trans__6383C8BA" />
+        <AssociationConnector Association="tokobediaModel.FK__HeaderTra__Payme__6477ECF3" />
+        <AssociationConnector Association="tokobediaModel.FK__HeaderTra__UserI__628FA481" />
+        <AssociationConnector Association="tokobediaModel.FK__Products__Produc__47DBAE45" />
+        <AssociationConnector Association="tokobediaModel.FK__Users__RoleId__276EDEB3" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

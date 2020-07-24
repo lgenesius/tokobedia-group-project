@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="tokobediaModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="tokobediaModelContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Carts" EntityType="tokobediaModel.Cart" />
+    <EntitySet Name="DetailTransactions" EntityType="tokobediaModel.DetailTransaction" />
+    <EntitySet Name="HeaderTransactions" EntityType="tokobediaModel.HeaderTransaction" />
+    <EntitySet Name="PaymentTypes" EntityType="tokobediaModel.PaymentType" />
+    <EntitySet Name="Products" EntityType="tokobediaModel.Product" />
+    <EntitySet Name="ProductTypes" EntityType="tokobediaModel.ProductType" />
+    <EntitySet Name="Roles" EntityType="tokobediaModel.Role" />
+    <EntitySet Name="Tables" EntityType="tokobediaModel.Table" />
+    <EntitySet Name="Users" EntityType="tokobediaModel.User" />
+    <AssociationSet Name="FK__Carts__ProductID__5DCAEF64" Association="tokobediaModel.FK__Carts__ProductID__5DCAEF64">
+      <End Role="Product" EntitySet="Products" />
+      <End Role="Cart" EntitySet="Carts" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Carts__UserID__5CD6CB2B" Association="tokobediaModel.FK__Carts__UserID__5CD6CB2B">
+      <End Role="User" EntitySet="Users" />
+      <End Role="Cart" EntitySet="Carts" />
+    </AssociationSet>
+    <AssociationSet Name="FK__DetailTra__Produ__34C8D9D1" Association="tokobediaModel.FK__DetailTra__Produ__34C8D9D1">
+      <End Role="Product" EntitySet="Products" />
+      <End Role="DetailTransaction" EntitySet="DetailTransactions" />
+    </AssociationSet>
+    <AssociationSet Name="FK__DetailTra__Trans__6383C8BA" Association="tokobediaModel.FK__DetailTra__Trans__6383C8BA">
+      <End Role="HeaderTransaction" EntitySet="HeaderTransactions" />
+      <End Role="DetailTransaction" EntitySet="DetailTransactions" />
+    </AssociationSet>
+    <AssociationSet Name="FK__HeaderTra__Payme__6477ECF3" Association="tokobediaModel.FK__HeaderTra__Payme__6477ECF3">
+      <End Role="PaymentType" EntitySet="PaymentTypes" />
+      <End Role="HeaderTransaction" EntitySet="HeaderTransactions" />
+    </AssociationSet>
+    <AssociationSet Name="FK__HeaderTra__UserI__628FA481" Association="tokobediaModel.FK__HeaderTra__UserI__628FA481">
+      <End Role="User" EntitySet="Users" />
+      <End Role="HeaderTransaction" EntitySet="HeaderTransactions" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Products__Produc__47DBAE45" Association="tokobediaModel.FK__Products__Produc__47DBAE45">
+      <End Role="ProductType" EntitySet="ProductTypes" />
+      <End Role="Product" EntitySet="Products" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Users__RoleId__276EDEB3" Association="tokobediaModel.FK__Users__RoleId__276EDEB3">
+      <End Role="Role" EntitySet="Roles" />
+      <End Role="User" EntitySet="Users" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Cart">
+    <Key>
+      <PropertyRef Name="UserID" />
+      <PropertyRef Name="ProductID" />
+    </Key>
+    <Property Name="UserID" Type="Int32" Nullable="false" />
+    <Property Name="ProductID" Type="Int32" Nullable="false" />
+    <Property Name="Quantity" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Product" Relationship="tokobediaModel.FK__Carts__ProductID__5DCAEF64" FromRole="Cart" ToRole="Product" />
+    <NavigationProperty Name="User" Relationship="tokobediaModel.FK__Carts__UserID__5CD6CB2B" FromRole="Cart" ToRole="User" />
+  </EntityType>
+  <EntityType Name="DetailTransaction">
+    <Key>
+      <PropertyRef Name="TransactionID" />
+      <PropertyRef Name="ProductID" />
+    </Key>
+    <Property Name="TransactionID" Type="Int32" Nullable="false" />
+    <Property Name="ProductID" Type="Int32" Nullable="false" />
+    <Property Name="Quantity" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Product" Relationship="tokobediaModel.FK__DetailTra__Produ__34C8D9D1" FromRole="DetailTransaction" ToRole="Product" />
+    <NavigationProperty Name="HeaderTransaction" Relationship="tokobediaModel.FK__DetailTra__Trans__6383C8BA" FromRole="DetailTransaction" ToRole="HeaderTransaction" />
+  </EntityType>
+  <EntityType Name="HeaderTransaction">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserID" Type="Int32" Nullable="false" />
+    <Property Name="PaymentTypeID" Type="Int32" Nullable="false" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="0" />
+    <NavigationProperty Name="DetailTransactions" Relationship="tokobediaModel.FK__DetailTra__Trans__6383C8BA" FromRole="HeaderTransaction" ToRole="DetailTransaction" />
+    <NavigationProperty Name="PaymentType" Relationship="tokobediaModel.FK__HeaderTra__Payme__6477ECF3" FromRole="HeaderTransaction" ToRole="PaymentType" />
+    <NavigationProperty Name="User" Relationship="tokobediaModel.FK__HeaderTra__UserI__628FA481" FromRole="HeaderTransaction" ToRole="User" />
+  </EntityType>
+  <EntityType Name="PaymentType">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Type" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="HeaderTransactions" Relationship="tokobediaModel.FK__HeaderTra__Payme__6477ECF3" FromRole="PaymentType" ToRole="HeaderTransaction" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductTypeID" Type="Int32" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Price" Type="Int32" Nullable="false" />
+    <Property Name="Stock" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Carts" Relationship="tokobediaModel.FK__Carts__ProductID__5DCAEF64" FromRole="Product" ToRole="Cart" />
+    <NavigationProperty Name="DetailTransactions" Relationship="tokobediaModel.FK__DetailTra__Produ__34C8D9D1" FromRole="Product" ToRole="DetailTransaction" />
+    <NavigationProperty Name="ProductType" Relationship="tokobediaModel.FK__Products__Produc__47DBAE45" FromRole="Product" ToRole="ProductType" />
+  </EntityType>
+  <EntityType Name="ProductType">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Description" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Products" Relationship="tokobediaModel.FK__Products__Produc__47DBAE45" FromRole="ProductType" ToRole="Product" />
+  </EntityType>
+  <EntityType Name="Role">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Users" Relationship="tokobediaModel.FK__Users__RoleId__276EDEB3" FromRole="Role" ToRole="User" />
+  </EntityType>
+  <EntityType Name="Table">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RoleId" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Email" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Password" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Gender" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Status" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Carts" Relationship="tokobediaModel.FK__Carts__UserID__5CD6CB2B" FromRole="User" ToRole="Cart" />
+    <NavigationProperty Name="HeaderTransactions" Relationship="tokobediaModel.FK__HeaderTra__UserI__628FA481" FromRole="User" ToRole="HeaderTransaction" />
+    <NavigationProperty Name="Role" Relationship="tokobediaModel.FK__Users__RoleId__276EDEB3" FromRole="User" ToRole="Role" />
+  </EntityType>
+  <Association Name="FK__Carts__ProductID__5DCAEF64">
+    <End Type="tokobediaModel.Product" Role="Product" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="tokobediaModel.Cart" Role="Cart" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Cart">
+        <PropertyRef Name="ProductID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Carts__UserID__5CD6CB2B">
+    <End Type="tokobediaModel.User" Role="User" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="tokobediaModel.Cart" Role="Cart" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Cart">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__DetailTra__Produ__34C8D9D1">
+    <End Type="tokobediaModel.Product" Role="Product" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="tokobediaModel.DetailTransaction" Role="DetailTransaction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="DetailTransaction">
+        <PropertyRef Name="ProductID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__DetailTra__Trans__6383C8BA">
+    <End Type="tokobediaModel.HeaderTransaction" Role="HeaderTransaction" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="tokobediaModel.DetailTransaction" Role="DetailTransaction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HeaderTransaction">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="DetailTransaction">
+        <PropertyRef Name="TransactionID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__HeaderTra__Payme__6477ECF3">
+    <End Type="tokobediaModel.PaymentType" Role="PaymentType" Multiplicity="1" />
+    <End Type="tokobediaModel.HeaderTransaction" Role="HeaderTransaction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PaymentType">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="HeaderTransaction">
+        <PropertyRef Name="PaymentTypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__HeaderTra__UserI__628FA481">
+    <End Type="tokobediaModel.User" Role="User" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="tokobediaModel.HeaderTransaction" Role="HeaderTransaction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="HeaderTransaction">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Products__Produc__47DBAE45">
+    <End Type="tokobediaModel.ProductType" Role="ProductType" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="tokobediaModel.Product" Role="Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProductType">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Product">
+        <PropertyRef Name="ProductTypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Users__RoleId__276EDEB3">
+    <End Type="tokobediaModel.Role" Role="Role" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="tokobediaModel.User" Role="User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Role">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="User">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

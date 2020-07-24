@@ -1,0 +1,168 @@
+c:\users\arya\documents\visual studio 2015\Projects\QuizEnamSesi\QuizEnamSesi\bin\ApplicationInsights.config
+c:\users\arya\documents\visual studio 2015\Projects\QuizEnamSesi\QuizEnamSesi\bin\roslyn\csc.exe
+c:\users\arya\documents\visual studio 2015\Projects\QuizEnamSesi\QuizEnamSesi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\arya\documents\visual studio 2015\Projects\QuizEnamSesi\QuizEnamSesi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\arya\documents\visual studio 2015\Projects\QuizEnamSesi\QuizEnamSesi\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\arya\documents\visual studio 2015\Projects\QuizEnamSesi\QuizEnamSesi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\arya\documents\visual studio 2015\Projects\QuizEnamSesi\QuizEnamSesi\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\arya\documents\visual studio 2015\Projects\QuizEnamSesi\QuizEnamSesi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\arya\documents\visual studio 2015\Projects\QuizEnamSesi\QuizEnamSesi\bin\roslyn\System.Collections.Immutable.dll
+c:\users\arya\documents\visual studio 2015\Projects\QuizEnamSesi\QuizEnamSesi\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\arya\documents\visual studio 2015\Projects\QuizEnamSesi\QuizEnamSesi\bin\roslyn\vbc.exe
+c:\users\arya\documents\visual studio 2015\Projects\QuizEnamSesi\QuizEnamSesi\bin\roslyn\VBCSCompiler.exe
+c:\users\arya\documents\visual studio 2015\Projects\QuizEnamSesi\QuizEnamSesi\bin\roslyn\VBCSCompiler.exe.config
+c:\users\arya\documents\visual studio 2015\Projects\QuizEnamSesi\QuizEnamSesi\bin\QuizEnamSesi.dll.config
+c:\users\arya\documents\visual studio 2015\Projects\QuizEnamSesi\QuizEnamSesi\bin\QuizEnamSesi.dll
+c:\users\arya\documents\visual studio 2015\Projects\QuizEnamSesi\QuizEnamSesi\bin\QuizEnamSesi.pdb
+c:\users\arya\documents\visual studio 2015\Projects\QuizEnamSesi\QuizEnamSesi\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\arya\documents\visual studio 2015\Projects\QuizEnamSesi\QuizEnamSesi\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\arya\documents\visual studio 2015\Projects\QuizEnamSesi\QuizEnamSesi\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\arya\documents\visual studio 2015\Projects\QuizEnamSesi\QuizEnamSesi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\arya\documents\visual studio 2015\Projects\QuizEnamSesi\QuizEnamSesi\bin\Microsoft.AI.Web.dll
+c:\users\arya\documents\visual studio 2015\Projects\QuizEnamSesi\QuizEnamSesi\bin\Microsoft.AI.WindowsServer.dll
+c:\users\arya\documents\visual studio 2015\Projects\QuizEnamSesi\QuizEnamSesi\bin\Microsoft.ApplicationInsights.dll
+c:\users\arya\documents\visual studio 2015\Projects\QuizEnamSesi\QuizEnamSesi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\arya\documents\visual studio 2015\Projects\QuizEnamSesi\QuizEnamSesi\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\arya\documents\visual studio 2015\Projects\QuizEnamSesi\QuizEnamSesi\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\arya\documents\visual studio 2015\Projects\QuizEnamSesi\QuizEnamSesi\bin\Microsoft.AI.Web.xml
+c:\users\arya\documents\visual studio 2015\Projects\QuizEnamSesi\QuizEnamSesi\bin\Microsoft.AI.WindowsServer.xml
+c:\users\arya\documents\visual studio 2015\Projects\QuizEnamSesi\QuizEnamSesi\bin\Microsoft.ApplicationInsights.xml
+c:\users\arya\documents\visual studio 2015\Projects\QuizEnamSesi\QuizEnamSesi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\arya\documents\visual studio 2015\Projects\QuizEnamSesi\QuizEnamSesi\obj\Debug\QuizEnamSesi.csprojResolveAssemblyReference.cache
+c:\users\arya\documents\visual studio 2015\Projects\QuizEnamSesi\QuizEnamSesi\obj\Debug\QuizEnamSesi.dll
+c:\users\arya\documents\visual studio 2015\Projects\QuizEnamSesi\QuizEnamSesi\obj\Debug\QuizEnamSesi.pdb
+C:\Users\Arya\Documents\Visual Studio 2015\Projects\QuizEnamSesi\QuizEnamSesi\bin\EntityFramework.dll
+C:\Users\Arya\Documents\Visual Studio 2015\Projects\QuizEnamSesi\QuizEnamSesi\bin\EntityFramework.SqlServer.dll
+C:\Users\Arya\Documents\Visual Studio 2015\Projects\QuizEnamSesi\QuizEnamSesi\bin\EntityFramework.xml
+C:\Users\Arya\Documents\Visual Studio 2015\Projects\QuizEnamSesi\QuizEnamSesi\bin\EntityFramework.SqlServer.xml
+D:\PSD LAB 2\Project Akhir\QuizEnamSesi\QuizEnamSesi\bin\ApplicationInsights.config
+D:\PSD LAB 2\Project Akhir\QuizEnamSesi\QuizEnamSesi\bin\roslyn\csc.exe
+D:\PSD LAB 2\Project Akhir\QuizEnamSesi\QuizEnamSesi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\PSD LAB 2\Project Akhir\QuizEnamSesi\QuizEnamSesi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\PSD LAB 2\Project Akhir\QuizEnamSesi\QuizEnamSesi\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\PSD LAB 2\Project Akhir\QuizEnamSesi\QuizEnamSesi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\PSD LAB 2\Project Akhir\QuizEnamSesi\QuizEnamSesi\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\PSD LAB 2\Project Akhir\QuizEnamSesi\QuizEnamSesi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\PSD LAB 2\Project Akhir\QuizEnamSesi\QuizEnamSesi\bin\roslyn\System.Collections.Immutable.dll
+D:\PSD LAB 2\Project Akhir\QuizEnamSesi\QuizEnamSesi\bin\roslyn\System.Reflection.Metadata.dll
+D:\PSD LAB 2\Project Akhir\QuizEnamSesi\QuizEnamSesi\bin\roslyn\vbc.exe
+D:\PSD LAB 2\Project Akhir\QuizEnamSesi\QuizEnamSesi\bin\roslyn\VBCSCompiler.exe
+D:\PSD LAB 2\Project Akhir\QuizEnamSesi\QuizEnamSesi\bin\roslyn\VBCSCompiler.exe.config
+D:\PSD LAB 2\Project Akhir\QuizEnamSesi\QuizEnamSesi\bin\QuizEnamSesi.dll.config
+D:\PSD LAB 2\Project Akhir\QuizEnamSesi\QuizEnamSesi\bin\QuizEnamSesi.dll
+D:\PSD LAB 2\Project Akhir\QuizEnamSesi\QuizEnamSesi\bin\QuizEnamSesi.pdb
+D:\PSD LAB 2\Project Akhir\QuizEnamSesi\QuizEnamSesi\bin\EntityFramework.dll
+D:\PSD LAB 2\Project Akhir\QuizEnamSesi\QuizEnamSesi\bin\EntityFramework.SqlServer.dll
+D:\PSD LAB 2\Project Akhir\QuizEnamSesi\QuizEnamSesi\bin\Microsoft.AI.Agent.Intercept.dll
+D:\PSD LAB 2\Project Akhir\QuizEnamSesi\QuizEnamSesi\bin\Microsoft.AI.DependencyCollector.dll
+D:\PSD LAB 2\Project Akhir\QuizEnamSesi\QuizEnamSesi\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\PSD LAB 2\Project Akhir\QuizEnamSesi\QuizEnamSesi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\PSD LAB 2\Project Akhir\QuizEnamSesi\QuizEnamSesi\bin\Microsoft.AI.Web.dll
+D:\PSD LAB 2\Project Akhir\QuizEnamSesi\QuizEnamSesi\bin\Microsoft.AI.WindowsServer.dll
+D:\PSD LAB 2\Project Akhir\QuizEnamSesi\QuizEnamSesi\bin\Microsoft.ApplicationInsights.dll
+D:\PSD LAB 2\Project Akhir\QuizEnamSesi\QuizEnamSesi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\PSD LAB 2\Project Akhir\QuizEnamSesi\QuizEnamSesi\bin\EntityFramework.xml
+D:\PSD LAB 2\Project Akhir\QuizEnamSesi\QuizEnamSesi\bin\EntityFramework.SqlServer.xml
+D:\PSD LAB 2\Project Akhir\QuizEnamSesi\QuizEnamSesi\bin\Microsoft.AI.DependencyCollector.xml
+D:\PSD LAB 2\Project Akhir\QuizEnamSesi\QuizEnamSesi\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\PSD LAB 2\Project Akhir\QuizEnamSesi\QuizEnamSesi\bin\Microsoft.AI.Web.xml
+D:\PSD LAB 2\Project Akhir\QuizEnamSesi\QuizEnamSesi\bin\Microsoft.AI.WindowsServer.xml
+D:\PSD LAB 2\Project Akhir\QuizEnamSesi\QuizEnamSesi\bin\Microsoft.ApplicationInsights.xml
+D:\PSD LAB 2\Project Akhir\QuizEnamSesi\QuizEnamSesi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\PSD LAB 2\Project Akhir\QuizEnamSesi\QuizEnamSesi\obj\Debug\QuizEnamSesi.csprojResolveAssemblyReference.cache
+D:\PSD LAB 2\Project Akhir\QuizEnamSesi\QuizEnamSesi\obj\Debug\QuizEnamSesi.dll
+D:\PSD LAB 2\Project Akhir\QuizEnamSesi\QuizEnamSesi\obj\Debug\QuizEnamSesi.pdb
+D:\ASP\QuizEnamSesi\QuizEnamSesi\bin\ApplicationInsights.config
+D:\ASP\QuizEnamSesi\QuizEnamSesi\bin\roslyn\csc.exe
+D:\ASP\QuizEnamSesi\QuizEnamSesi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\ASP\QuizEnamSesi\QuizEnamSesi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\ASP\QuizEnamSesi\QuizEnamSesi\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\ASP\QuizEnamSesi\QuizEnamSesi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\ASP\QuizEnamSesi\QuizEnamSesi\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\ASP\QuizEnamSesi\QuizEnamSesi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\ASP\QuizEnamSesi\QuizEnamSesi\bin\roslyn\System.Collections.Immutable.dll
+D:\ASP\QuizEnamSesi\QuizEnamSesi\bin\roslyn\System.Reflection.Metadata.dll
+D:\ASP\QuizEnamSesi\QuizEnamSesi\bin\roslyn\vbc.exe
+D:\ASP\QuizEnamSesi\QuizEnamSesi\bin\roslyn\VBCSCompiler.exe
+D:\ASP\QuizEnamSesi\QuizEnamSesi\bin\roslyn\VBCSCompiler.exe.config
+D:\ASP\QuizEnamSesi\QuizEnamSesi\bin\QuizEnamSesi.dll.config
+D:\ASP\QuizEnamSesi\QuizEnamSesi\bin\QuizEnamSesi.dll
+D:\ASP\QuizEnamSesi\QuizEnamSesi\bin\QuizEnamSesi.pdb
+D:\ASP\QuizEnamSesi\QuizEnamSesi\bin\EntityFramework.dll
+D:\ASP\QuizEnamSesi\QuizEnamSesi\bin\EntityFramework.SqlServer.dll
+D:\ASP\QuizEnamSesi\QuizEnamSesi\bin\Microsoft.AI.Agent.Intercept.dll
+D:\ASP\QuizEnamSesi\QuizEnamSesi\bin\Microsoft.AI.DependencyCollector.dll
+D:\ASP\QuizEnamSesi\QuizEnamSesi\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\ASP\QuizEnamSesi\QuizEnamSesi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\ASP\QuizEnamSesi\QuizEnamSesi\bin\Microsoft.AI.Web.dll
+D:\ASP\QuizEnamSesi\QuizEnamSesi\bin\Microsoft.AI.WindowsServer.dll
+D:\ASP\QuizEnamSesi\QuizEnamSesi\bin\Microsoft.ApplicationInsights.dll
+D:\ASP\QuizEnamSesi\QuizEnamSesi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\ASP\QuizEnamSesi\QuizEnamSesi\bin\EntityFramework.xml
+D:\ASP\QuizEnamSesi\QuizEnamSesi\bin\EntityFramework.SqlServer.xml
+D:\ASP\QuizEnamSesi\QuizEnamSesi\bin\Microsoft.AI.DependencyCollector.xml
+D:\ASP\QuizEnamSesi\QuizEnamSesi\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\ASP\QuizEnamSesi\QuizEnamSesi\bin\Microsoft.AI.Web.xml
+D:\ASP\QuizEnamSesi\QuizEnamSesi\bin\Microsoft.AI.WindowsServer.xml
+D:\ASP\QuizEnamSesi\QuizEnamSesi\bin\Microsoft.ApplicationInsights.xml
+D:\ASP\QuizEnamSesi\QuizEnamSesi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\ASP\QuizEnamSesi\QuizEnamSesi\obj\Debug\QuizEnamSesi.csprojResolveAssemblyReference.cache
+D:\ASP\QuizEnamSesi\QuizEnamSesi\obj\Debug\QuizEnamSesi.dll
+D:\ASP\QuizEnamSesi\QuizEnamSesi\obj\Debug\QuizEnamSesi.pdb
+D:\PSD LAB 2\QuizEnamSesi\QuizEnamSesi\bin\ApplicationInsights.config
+D:\PSD LAB 2\QuizEnamSesi\QuizEnamSesi\bin\roslyn\csc.exe
+D:\PSD LAB 2\QuizEnamSesi\QuizEnamSesi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\PSD LAB 2\QuizEnamSesi\QuizEnamSesi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\PSD LAB 2\QuizEnamSesi\QuizEnamSesi\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\PSD LAB 2\QuizEnamSesi\QuizEnamSesi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\PSD LAB 2\QuizEnamSesi\QuizEnamSesi\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\PSD LAB 2\QuizEnamSesi\QuizEnamSesi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\PSD LAB 2\QuizEnamSesi\QuizEnamSesi\bin\roslyn\System.Collections.Immutable.dll
+D:\PSD LAB 2\QuizEnamSesi\QuizEnamSesi\bin\roslyn\System.Reflection.Metadata.dll
+D:\PSD LAB 2\QuizEnamSesi\QuizEnamSesi\bin\roslyn\vbc.exe
+D:\PSD LAB 2\QuizEnamSesi\QuizEnamSesi\bin\roslyn\VBCSCompiler.exe
+D:\PSD LAB 2\QuizEnamSesi\QuizEnamSesi\bin\roslyn\VBCSCompiler.exe.config
+D:\PSD LAB 2\QuizEnamSesi\QuizEnamSesi\bin\QuizEnamSesi.dll.config
+D:\PSD LAB 2\QuizEnamSesi\QuizEnamSesi\bin\QuizEnamSesi.dll
+D:\PSD LAB 2\QuizEnamSesi\QuizEnamSesi\bin\QuizEnamSesi.pdb
+D:\PSD LAB 2\QuizEnamSesi\QuizEnamSesi\bin\EntityFramework.dll
+D:\PSD LAB 2\QuizEnamSesi\QuizEnamSesi\bin\EntityFramework.SqlServer.dll
+D:\PSD LAB 2\QuizEnamSesi\QuizEnamSesi\bin\Microsoft.AI.Agent.Intercept.dll
+D:\PSD LAB 2\QuizEnamSesi\QuizEnamSesi\bin\Microsoft.AI.DependencyCollector.dll
+D:\PSD LAB 2\QuizEnamSesi\QuizEnamSesi\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\PSD LAB 2\QuizEnamSesi\QuizEnamSesi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\PSD LAB 2\QuizEnamSesi\QuizEnamSesi\bin\Microsoft.AI.Web.dll
+D:\PSD LAB 2\QuizEnamSesi\QuizEnamSesi\bin\Microsoft.AI.WindowsServer.dll
+D:\PSD LAB 2\QuizEnamSesi\QuizEnamSesi\bin\Microsoft.ApplicationInsights.dll
+D:\PSD LAB 2\QuizEnamSesi\QuizEnamSesi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\PSD LAB 2\QuizEnamSesi\QuizEnamSesi\bin\EntityFramework.xml
+D:\PSD LAB 2\QuizEnamSesi\QuizEnamSesi\bin\EntityFramework.SqlServer.xml
+D:\PSD LAB 2\QuizEnamSesi\QuizEnamSesi\bin\Microsoft.AI.DependencyCollector.xml
+D:\PSD LAB 2\QuizEnamSesi\QuizEnamSesi\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\PSD LAB 2\QuizEnamSesi\QuizEnamSesi\bin\Microsoft.AI.Web.xml
+D:\PSD LAB 2\QuizEnamSesi\QuizEnamSesi\bin\Microsoft.AI.WindowsServer.xml
+D:\PSD LAB 2\QuizEnamSesi\QuizEnamSesi\bin\Microsoft.ApplicationInsights.xml
+D:\PSD LAB 2\QuizEnamSesi\QuizEnamSesi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\PSD LAB 2\QuizEnamSesi\QuizEnamSesi\obj\Debug\QuizEnamSesi.csprojResolveAssemblyReference.cache
+D:\PSD LAB 2\QuizEnamSesi\QuizEnamSesi\obj\Debug\QuizEnamSesi.dll
+D:\PSD LAB 2\QuizEnamSesi\QuizEnamSesi\obj\Debug\QuizEnamSesi.pdb
+D:\PSD LAB 2\QuizEnamSesi\QuizEnamSesi\bin\CrystalDecisions.CrystalReports.Engine.dll
+D:\PSD LAB 2\QuizEnamSesi\QuizEnamSesi\bin\CrystalDecisions.ReportSource.dll
+D:\PSD LAB 2\QuizEnamSesi\QuizEnamSesi\bin\CrystalDecisions.Shared.dll
+D:\PSD LAB 2\QuizEnamSesi\QuizEnamSesi\bin\CrystalDecisions.Web.dll
+D:\PSD LAB 2\QuizEnamSesi\QuizEnamSesi\bin\Newtonsoft.Json.dll
+D:\PSD LAB 2\QuizEnamSesi\QuizEnamSesi\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\PSD LAB 2\QuizEnamSesi\QuizEnamSesi\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\PSD LAB 2\QuizEnamSesi\QuizEnamSesi\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\PSD LAB 2\QuizEnamSesi\QuizEnamSesi\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\PSD LAB 2\QuizEnamSesi\QuizEnamSesi\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\PSD LAB 2\QuizEnamSesi\QuizEnamSesi\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\PSD LAB 2\QuizEnamSesi\QuizEnamSesi\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\PSD LAB 2\QuizEnamSesi\QuizEnamSesi\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\PSD LAB 2\QuizEnamSesi\QuizEnamSesi\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\PSD LAB 2\QuizEnamSesi\QuizEnamSesi\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\PSD LAB 2\QuizEnamSesi\QuizEnamSesi\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\PSD LAB 2\QuizEnamSesi\QuizEnamSesi\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\PSD LAB 2\QuizEnamSesi\QuizEnamSesi\bin\stdole.dll
+D:\PSD LAB 2\QuizEnamSesi\QuizEnamSesi\bin\Newtonsoft.Json.xml
+D:\PSD LAB 2\QuizEnamSesi\QuizEnamSesi\bin\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
